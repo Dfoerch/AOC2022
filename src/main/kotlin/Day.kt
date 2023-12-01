@@ -1,4 +1,4 @@
-abstract class Day(val day: Int) {
+abstract class Day(val day: Int, val year: Int = 0) {
 
     abstract val taskInput : List<Any>
 
